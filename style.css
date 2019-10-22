@@ -1,0 +1,25 @@
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+body  {
+   background-image: url("images/web-background.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   text-align: center;
+   background-color: #555;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Kaushan Script', cursive;
+}
+button{
+  background: transparent;
+ border-radius: 5px;
+ border: 2px solid palevioletred;
+ color: palevioletred;
+ margin: 0.10em 1em;
+ padding: 0.25em 1em;
+ background: palevioletred;
+color: yellow;
+}
