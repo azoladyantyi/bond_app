@@ -5,7 +5,7 @@ function calculate_total() {
   var fixed_interest = document.getElementById("fixed_interest").value;
 
 
- var result = (parseFloat(purchase_price - deposit_paid)) * parseFloat(bond_term*12) * parseFloat(fixed_interest/100);
+ var result = (parseFloat(purchase_price - deposit_paid))  * (parseFloat(bond_term*12) *parseFloat(fixed_interest/100));
   if (result) {
     document.getElementById("output").innerHTML="The fixed rate mortgage is " +" " + "R" + result;
   }

@@ -23,3 +23,11 @@ button{
  background: palevioletred;
 color: yellow;
 }
+/*label {
+    float: left;
+}*/
+
+input {
+    width: 18%;
+    box-sizing:border-box;
+}
